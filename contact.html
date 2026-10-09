@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>North Star Bakery | Contact Us</title>
+</head>
+<body>
+    <header>
+        <img src="images/bakery-logo.jpg" alt="North Star Bakery logo">
+        <h1>North Star Bakery | Contact Us</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Pre-Order and Inquiry Form</h2>
+            <p>Place a pre-order or send us a question. We'll get back to you within a
+                business day.
+            </p>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Your Information</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                </fieldset>
+                <fieldset>
+                    <legend>Order Details</legend>
+                    <label for="request-type">Request Type:</label>
+                    <select id="request-type" name="request-type" required>
+                        <option value="">-- Please Choose --</option>
+                        <option value="pre-order">Pre-Order</option>
+                        <option value="question">General Question</option>
+                        <option value="event">Event or Custom Cake Inquiry</option>
+                    </select>
+                    <br>
+                    <label for="pickup-date">Pickup Date (for pre-orders):</label>
+                    <input type="date" id="pickup-date" name="pickup-date" min="2026-10-01">
+                    <br>
+                    <label for="item-details">Item Details or Question:</label>
+                    <br>
+                    <textarea id="item-details" name="item-details" rows="4" cols="40" maxlength="500" required></textarea>
+                    <br>
+                    <label for="allergy-notes">Allergy Notes (if applicable):</label>
+                    <br>
+                    <textarea id="allergy-notes" name="allergy-notes" rows="3" cols="40" maxlength="300"></textarea>
+                    <br>
+                </fieldset>
+                <button type="submit">Send Request</button>
+            </form>
+        </section>
+        <section>
+            <h2>Location</h2>
+            <p>North Star Bakery
+                <br>
+                123 Main Street
+                <br>
+                Minneapolis, MN
+            </p>
+            <p>Street parking is available on Main Street, and we're a short walk 
+                from the Main Street bus stop.
+            </p>
+        </section>
+        <section>
+            <h2>Hours of Operation</h2>
+            <ul>
+                <li>Monday: Closed</li>
+                <li>Tuesday-Sunday: 6:00 a.m. - 3:00 p.m.</li>
+            </ul>
+            <p>Pre-orders can be picked up any time during open hours.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 North Star Bakery</p>
+    </footer>
+</body>
+</html>

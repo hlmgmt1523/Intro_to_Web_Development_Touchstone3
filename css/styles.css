@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    background-color: #FDF6EC;
+    color: #2B211C;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+h1,
+h2,
+h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #7A4A2A;
+    line-height: 1.25;
+}
+h1 {
+    font-size: 1.6rem;
+    margin: 0;
+    color: #FDF6EC;
+}
+header {
+    padding: 1rem;
+    background-color: #7A4A2A;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+}
+header img {
+    width: 80px;
+    border-radius: 50%;
+    border: 3px solid #E3B65C;
+}
+nav {
+    background-color: #2B211C;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav a {
+    display: block;
+    padding: 0.75rem 1rem;
+    color: #FDF6EC;
+    text-decoration: none;
+    font-weight: 600;
+}
+nav a:hover {
+    background-color: #E3B65C;
+    color: #2B211c;
+}
+h2 {
+    font-size: 1.4rem;
+    margin-top: 0;
+    padding-bottom: 0.3rem;
+    border-bottom: 3px solid #E3B65C;
+}
+h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+}
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1.25rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+section {
+    background-color: #FFFFFF;
+    padding: 1.25rem;
+    border-top: 5px solid #E3B65C;
+    border-radius: 6px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+}
+figcaption {
+    margin-top: 0.5rem;
+    font-style: italic;
+    color: #7A4A2A;
+}
+audio {
+    width: 100%;
+}
+fieldset {
+    border: 2px solid #E3B65C;
+    border-radius: 6px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+legend {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 700;
+    color: #7A4A2A;
+    padding 0 0.4rem;
+}
+label {
+    font-weight: 600;
+}
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 0.6rem;
+    font-family: inherit;
+    font-size: 1rem;
+    border: 1px solid #7A4A2A;
+    border-radius: 4px;
+}
+button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FDF6EC;
+    background-color: #7A4A2A;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #2B211C;
+}
+footer {
+    padding: 1rem;
+    text-align: center;
+    background-color: #2B211C;
+    color: #FDF6EC;
+}
+@media (min-width: 800px) {
+    header {
+        flex-direction: row;
+        justify-content: center;
+        gap: 1.25rem;
+    }
+    h1 {
+        font-size: 2.2rem;
+    }
+    main {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        padding: 2rem;
+    }
+    section {
+        flex: 1 1 340px;
+    }
+}
